@@ -1,7 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    font-weight: 400;
+    font-weight: 800px;
+    font-size: 16px;
 }
 .banner{
     background-image: url(../images/donation7.jpg);
@@ -87,7 +88,32 @@ display: flex;
     text-align: left;
 }
 
+.info{
+    text-align: center;
+}
+
+.img{
+    padding-left: 75px;
+}
+#update-text{
+    text-align: center;
+}
 
 
-
-
+}
+#email{
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+#submit{
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+.end-note{
+    text-align: center;
+    background-color: black;
+    color: chocolate;
+}
+#ending{
+    color: blue;
+}
