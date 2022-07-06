@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    font-weight: 400;
 }
 .banner{
     background-image: url(../images/donation7.jpg);
@@ -24,3 +25,29 @@ a{
     border-radius: 5px;
     color: white;
 }
+
+/*banner ends*/
+
+.donate-cnt{
+    text-align: center;
+    
+
+}
+#shared-width{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    font-size: 30px;
+    width: 90px;
+    margin: 20px;
+    padding: 40px 25px;
+    background-color: #f9f9f9;
+    
+}
+#specific{
+    border: 2px solid tomato;
+    background-color: lightcoral;
+}
+
